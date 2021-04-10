@@ -7,11 +7,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* @media (prefers-reduced-motion: no-preference) { */
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
 }
+/* } */
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Roboto Geo MT Bold";
+  src: url("kaushan-script-regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.App {
+  font-family: "Roboto Geo MT Bold";
+  text-align: center;
+  font-size: 30px;
 }
